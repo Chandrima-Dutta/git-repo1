@@ -4,6 +4,13 @@ public class Product {
 int productId;
 String productName;
 String productDescription;
+int quantity;
+	public int getquantity() {
+	return quantity;
+}
+public void setquantity(int productId) {
+	this.productId = productId;
+}
 public int getProductId() {
 	return productId;
 }
