@@ -5,7 +5,20 @@ public class Product {
 String productName;
 String productDescription;
 
+
 	
+
+
+	double price;
+	public int getprice(){
+		return price;
+	}
+public int getProductId() {
+	return productId;
+}
+public void setProductId(int productId) {
+	this.productId = productId;
+}
 
 public String getProductName() {
 	return productName;
